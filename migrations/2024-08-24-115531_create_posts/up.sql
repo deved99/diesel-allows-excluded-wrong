@@ -1,0 +1,6 @@
+-- Your SQL goes here
+CREATE TABLE posts (
+  title TEXT PRIMARY KEY,
+  created TIMESTAMP WITH TIME ZONE NOT NULL,
+  modified TIMESTAMP WITH TIME ZONE NOT NULL
+)

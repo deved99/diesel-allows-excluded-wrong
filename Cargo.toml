@@ -1,0 +1,11 @@
+[package]
+name = "diesel-allows-excluded-wrong"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+diesel = { version = "2.2.3", features = ["postgres", "chrono"] }
+dotenvy = "0.15"
+
+chrono = "0.4"
+uuid = { version = "1.10", features = [ "v4", "fast-rng" ] }
